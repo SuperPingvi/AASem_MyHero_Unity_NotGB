@@ -1358,7 +1358,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-57570
+  m_Name: pb_Mesh-46746
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2417,7 +2417,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-57660
+  m_Name: pb_Mesh-12830
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3372,7 +3372,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh34436
+  m_Name: pb_Mesh29942
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4337,7 +4337,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918136406}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.790001, y: 1, z: -6.17}
+  m_LocalPosition: {x: 5.75, y: 1, z: -6.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1773352916}
@@ -6133,6 +6133,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1235967893}
+    - target: {fileID: 5782177474059904307, guid: b48bbd49b7e2f274d95494801c4debc3, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5782177474059904308, guid: b48bbd49b7e2f274d95494801c4debc3, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -6237,6 +6241,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1235967893}
+    - target: {fileID: 5782177474108098163, guid: b48bbd49b7e2f274d95494801c4debc3, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5782177474754276960, guid: b48bbd49b7e2f274d95494801c4debc3, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -6431,6 +6439,10 @@ PrefabInstance:
       propertyPath: interactionSpace
       value: 
       objectReference: {fileID: 1027940427}
+    - target: {fileID: 2363251882246084899, guid: d0b380eb170a91d46aaea0da0a4d47c0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6956259371732605765, guid: d0b380eb170a91d46aaea0da0a4d47c0, type: 3}
       propertyPath: m_Name
       value: Enemy
