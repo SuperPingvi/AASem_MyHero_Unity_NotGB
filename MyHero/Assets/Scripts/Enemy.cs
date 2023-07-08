@@ -21,6 +21,7 @@ public class Enemy : Interactable
     }
     void Attack()
     {
+        Debug.Log("Attacking" + transform.name);
         enemyController.state = EnemyControllerFSM.State.Stunned;
     }
 }

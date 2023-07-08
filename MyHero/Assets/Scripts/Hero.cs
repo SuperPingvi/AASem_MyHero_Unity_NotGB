@@ -22,6 +22,7 @@ public class Hero : Interactable
     }
     public void Heal()
     {
+        Debug.Log("Healed" + transform.name);
         selfStats.ReceiveHeal(playerStats.healAmount);
     }
 }

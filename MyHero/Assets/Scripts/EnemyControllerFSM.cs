@@ -136,6 +136,7 @@ public class EnemyControllerFSM : MonoBehaviour
         walkPointIsSet = false;
         targetIsSet = false;
         target = null;
+        agent.isStopped=true;
 
         if (!isStunned)
         {
@@ -144,6 +145,7 @@ public class EnemyControllerFSM : MonoBehaviour
         }
         else if(isStunned && Time.time > stunTimer)
         {
+            agent.isStopped = false;
             state = State.Wandering;
             isStunned = false;
         }
